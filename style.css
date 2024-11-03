@@ -1,0 +1,115 @@
+.colorBlack {
+    background-color: #111320;
+}
+
+.colorYellow {
+    background-color: #fed000;
+}
+
+.colorCadr1 {
+    background-color: #030514 ;
+}
+
+.colorCadr2 {
+    background-color: #b7bffe ;
+}
+
+.colorCadr3 {
+    background-color: #dcbdab ;
+}
+
+.textColor{
+    color: white;
+}
+
+
+
+.trapezoid {
+	border-bottom: 50px solid #fed000 ;
+	border-left: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+
+
+@media screen and (max-width: 769px) {
+    .desktop-none {
+      display: none;
+    }
+  }
+@media screen and (min-width: 770px) {
+    .nav-icon {
+      display: none;
+    }
+  }
+
+
+  .custom-card {
+    background-color: #202040; /* Dark card background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    color: white; /* White text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+    overflow: hidden;
+  }
+  .custom-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #111320;
+    border-radius: 30%;
+    transform: translate(35%, -54%);
+  }
+  
+  .custom-card .arrow {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-card .arrow::before {
+    content: "↗";
+    font-size: 20px;
+    color: white;
+  }
+
+
+
+.main-bg {
+    background-image: url("/images/bgMetly.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
